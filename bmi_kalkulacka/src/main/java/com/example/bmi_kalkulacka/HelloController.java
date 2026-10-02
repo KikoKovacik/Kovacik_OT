@@ -17,8 +17,6 @@ public class HelloController {
         if (bmicko < 18.5) bmi.setText("BMI = "+ bmicko +" - podváha");
         else if (bmicko < 25) bmi.setText("BMI = "+ bmicko +" - normálna hmotnosť");
         else if (bmicko < 30) bmi.setText("BMI = "+ bmicko +" - nadváha");
-        else if (bmicko < 35) bmi.setText("BMI = "+ bmicko +" - obezita 1. stupňa");
-        else if (bmicko < 40) bmi.setText("BMI = "+ bmicko +" - obezita 2. stupňa");
-        else bmi.setText("BMI = "+ bmicko +" - obezita 3. stupňa (ťažká)");
+        else bmi.setText("BMI = "+ bmicko +" - obezita");
     }
 }
