@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/Kovacik_OT" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Kovacik_OT/1_prva_kalkulacka" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Kovacik_OT/2_windows_kalkulacka" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Kovacik_OT/4_semafor" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Kovacik_OT/5_auto" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Kovacik_OT/6_ball" vcs="Git" />
+  </component>
+</project>
