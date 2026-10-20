@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="root" prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.__weather_object.HelloController">
+    <children>
+        <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#cloud" prefWidth="100.0" text="Oblak" />
+        <Button layoutX="120.0" layoutY="10.0" mnemonicParsing="false" onAction="#raindrop" prefWidth="100.0" text="Kvapka" />
+        <Button layoutX="230.0" layoutY="10.0" mnemonicParsing="false" onAction="#snowflake" prefWidth="100.0" text="Vločka" />
+        <Button layoutX="340.0" layoutY="10.0" mnemonicParsing="false" onAction="#stop" prefWidth="100.0" text="Zastav dážď" />
+        <Button layoutX="450.0" layoutY="10.0" mnemonicParsing="false" onAction="#blue" prefWidth="100.0" text="Modré oblaky" />
+        <Button layoutX="560.0" layoutY="10.0" mnemonicParsing="false" onAction="#left" prefWidth="100.0" text="Doľava o 20" />
+    </children>
+</Pane>
