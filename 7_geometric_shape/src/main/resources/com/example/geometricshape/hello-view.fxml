@@ -6,10 +6,11 @@
 
 <Pane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.geometricshape.HelloController">
    <children>
-      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#rectangle" text="Rectangle" />
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#rectangle" text="Rectangle " />
       <Button layoutX="91.0" layoutY="14.0" mnemonicParsing="false" onAction="#circle" text="Circle" />
       <Button layoutX="145.0" layoutY="14.0" mnemonicParsing="false" onAction="#square" text="Square" />
       <Button layoutX="205.0" layoutY="14.0" mnemonicParsing="false" onAction="#blue" text="Blue circles" />
       <Button layoutX="286.0" layoutY="14.0" mnemonicParsing="false" onAction="#down" text="Down" />
    </children>
 </Pane>
+c

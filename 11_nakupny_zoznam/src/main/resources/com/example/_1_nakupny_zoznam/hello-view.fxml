@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example._1_nakupny_zoznam.HelloController">
+   <center>
+      <ListView fx:id="list" onMousePressed="#nahod" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+   </center>
+   <bottom>
+      <VBox prefHeight="115.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="lblcelkovo" alignment="CENTER" contentDisplay="CENTER" prefHeight="48.0" prefWidth="189.0" text="CELKOVO" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <TextField fx:id="tfpolozka" alignment="CENTER" prefHeight="26.0" prefWidth="155.0" promptText="POLOŽKA" />
+                  <TextField fx:id="tfpocet" alignment="CENTER" prefHeight="26.0" prefWidth="155.0" promptText="POČET" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#pridanie" prefHeight="26.0" prefWidth="100.0" text="PRIDANIE" textAlignment="CENTER" />
+                  <Button mnemonicParsing="false" onAction="#zmazanie" prefHeight="26.0" prefWidth="100.0" text="ZMAZANIE" textAlignment="CENTER" />
+                  <Button mnemonicParsing="false" onAction="#uprava" prefHeight="26.0" prefWidth="100.0" text="ÚPRAVA" textAlignment="CENTER" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </bottom>
+</BorderPane>
