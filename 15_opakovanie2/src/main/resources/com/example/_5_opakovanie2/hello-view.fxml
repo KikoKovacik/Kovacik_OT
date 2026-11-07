@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example._5_opakovanie2.HelloController">
+   <children>
+      <ListView fx:id="lv" onMousePressed="#nahodtext" prefHeight="400.0" prefWidth="211.0" />
+      <TextArea fx:id="textvystup" layoutX="400.0" prefHeight="400.0" prefWidth="200.0" />
+      <TextField fx:id="textnazov" layoutX="226.0" layoutY="14.0" promptText="nazov" />
+      <TextField fx:id="textpriorita" layoutX="226.0" layoutY="52.0" promptText="priorita" />
+      <TextField fx:id="textstav" layoutX="226.0" layoutY="89.0" promptText="stav" />
+      <Button layoutX="230.0" layoutY="132.0" mnemonicParsing="false" onAction="#pridaj" prefHeight="25.0" prefWidth="140.0" text="Pridaj" />
+      <Button layoutX="230.0" layoutY="164.0" mnemonicParsing="false" onAction="#edituj" prefHeight="25.0" prefWidth="140.0" text="Edituj" />
+      <Button layoutX="230.0" layoutY="196.0" mnemonicParsing="false" onAction="#vymaz" prefHeight="25.0" prefWidth="140.0" text="Vymaz" />
+      <Button layoutX="230.0" layoutY="228.0" mnemonicParsing="false" onAction="#spusti" prefHeight="25.0" prefWidth="140.0" text="Spusti vlakna" />
+   </children>
+</Pane>

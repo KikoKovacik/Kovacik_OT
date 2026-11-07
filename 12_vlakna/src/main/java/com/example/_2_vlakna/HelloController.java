@@ -26,7 +26,7 @@ public class HelloController{
         }
     }
 
-    private void vypis(TextArea area, int text){
+    private void vypis(TextArea area, long text){
         Platform.runLater(new Runnable() {
             @Override
             public void run() {
@@ -79,7 +79,7 @@ public class HelloController{
     }
 
     public void faktorial(int cislo){
-        int vysledok = 1;
+        long vysledok = 1;
         for(int i = 1; i <= cislo; i++){
             vysledok *= i;
             vypis(txtfaktorial, vysledok);
