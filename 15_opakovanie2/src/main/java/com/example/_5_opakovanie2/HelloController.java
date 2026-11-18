@@ -18,8 +18,12 @@ public class HelloController {
     private ObservableList<Uloha> zoznam = FXCollections.observableArrayList();
     private boolean bezia = false;
 
+
     @FXML private void initialize(){
         lv.setItems(zoznam);
+        zoznam.add(new Uloha("a","b","rozpracovaná"));
+        zoznam.add(new Uloha("c","d","rozpracovaná"));
+        zoznam.add(new Uloha("e","f","hotová"));
     }
 
     @FXML private void pridaj(){
@@ -53,6 +57,7 @@ public class HelloController {
         int i = lv.getSelectionModel().getSelectedIndex();
         if (i >= 0){
             zoznam.remove(i);
+            vyprazdni();
         }
     }
 
@@ -62,7 +67,7 @@ public class HelloController {
         textstav.clear();
     }
 
-    private void spanok(int milisekundy) throws InterruptedException {
+    private void spanok(int milisekundy) throws InterruptedException{
         Thread.sleep(milisekundy);
     }
 

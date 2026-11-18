@@ -7,6 +7,7 @@ public class Mucha extends Hmyz{
     public Mucha(Pane root) {
         super(root);
         setOnMousePressed(e->zanikne());
+        vykresli(); //ALEBO PRIDAT DO POHYBU MUCHY A CHROBAKA
     }
 
     public void zastav(){
@@ -14,7 +15,7 @@ public class Mucha extends Hmyz{
     }
 
     private void zanikne(){
-        t.stop(); //TREBA ZASTAVIT CASOVAC, INAK DALEJ BEZI AJ BEZ KRESLENIA (BUDE SA STRHAVAT BOD)!
+        t.stop();
         root.getChildren().remove(this);
     }
 

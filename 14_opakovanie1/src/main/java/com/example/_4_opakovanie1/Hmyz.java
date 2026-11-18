@@ -21,7 +21,6 @@ public class Hmyz extends Canvas {
         t = new Timeline(new KeyFrame(Duration.millis(150),e->pohyb()));
         t.setCycleCount(Timeline.INDEFINITE);
         t.play();
-        vykresli(); //ALEBO PRIDAT DO POHYBU MUCHY A CHROBAKA
     }
 
     public void posun(){

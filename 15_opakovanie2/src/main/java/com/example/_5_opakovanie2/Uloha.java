@@ -11,7 +11,10 @@ public class Uloha {
         this.stav = stav;
     }
 
-    public String toString(){return nazov +" (" + priorita + ") "+ stav;}
+    @Override
+    public String toString() {
+        return nazov + " ("+priorita+") "+stav;
+    }
 
     public String getNazov() {
         return nazov;
